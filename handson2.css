@@ -1,0 +1,154 @@
+.bgimg {
+  margin-top: 100px;
+  background-image: url("img/handson2-img1.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
+  width: 100%;
+  height: 600px;
+}
+
+.logo1 {
+  background-size: 50%;
+}
+
+.headerset {
+  padding-top: 130px;
+  box-sizing: border-box;
+}
+
+.headerset h1 {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  color: black;
+  height: 60px;
+  margin: auto;
+  background-color: aqua;
+}
+
+.nav-link li {
+  color: blue;
+}
+
+/* ..............our-services...................*/
+.ourservices {
+  padding: 60px 0px 60px;
+  height: 250px;
+}
+
+.ourservices h1 {
+  font-weight: bold;
+}
+
+.rowsetting {
+  margin-top: 0px;
+}
+
+.imgsetting {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.fa-id-card-o {
+  margin-top: 25px;
+  margin-left: 22px;
+}
+
+.rowsetting h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.rowsetting p {
+  text-align: center;
+}
+
+.fa-desktop {
+  margin-top: 30px;
+  margin-left: 24px;
+}
+
+.fa-lock {
+  margin-top: 28px;
+  margin-left: 34px;
+}
+
+/* \\\\\\\\\\\\\portfolio\\\\\\\\\\\\\\\\\ */
+.portfolio {
+  padding-top: 100px;
+}
+
+.container h1 {
+  font-weight: bold;
+}
+
+.container p {
+  margin-top: 20px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+/* /////////////////ourteam//////////////////////// */
+.ourteam {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.ourteam h1 {
+  font-weight: bold;
+}
+
+.teamsetting {
+  margin-top: 80px;
+}
+
+/* \\\\\\\\\\\footer\\\\\\\\\\\\ */
+.footer h6 {
+  background-color: blue;
+  color: #ffffff;
+  padding: 5px;
+}
+
+/* \\\\\\\\\\\RESPONSIVE\\\\\\\\\\ */
+@media (min-width: 992px) {
+  .bgimg {
+    margin-top: 20px;
+    background-image: url("img/handson2-img1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 600px;
+  }
+
+  .nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+
+  .headerset h1 {
+    font-size: 60px;
+  }
+
+  .cls1 {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 991px) and @media (min-width: 768px) {
+}
+
+@media (max-width: 767px) and @media (min-width: 575px) {
+}
+
+@media (max-width: 574px) and @media (min-width: 480px) {
+}
+
+@media (max-width: 479px) {
+}
